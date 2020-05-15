@@ -2,7 +2,46 @@
 <html>
 	<head>
 		<title>COVID-19</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<style>
+			h1{
+				color: red;
+				text-align: center;
+
+			}
+			.row > div {
+					padding: 10px;
+					background-color: blue;
+					border: 5px solid black;
+			}
+			button{
+				width: 250px;
+				height: 75px;
+				background-color: yellow;
+				font-size: 20px;
+			}
+			button:hover{
+				background-color: white;
+			}
+		</style>
+	</head>
 	<body>
-		This site will provide information about COVID-19
+	<h1> This site will provide information about COVID-19 </h1>
+	<div class="container">
+			<div class="row">
+					<div class="col-lg-3 col-sm-6">
+						<button> <a href="symptoms.html"> Symptoms</a> </button>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						 <button> <a href="precaution.html"> Precaution </a> </button>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<button>	<a href="contact.html">Emergency contact numbers</a> </button>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<button>	<a href="hospitals.html">Hospitals involved in treating patients</a></button>
+					</div>
+			</div>
+	</div>
 	</body>
 </html>
